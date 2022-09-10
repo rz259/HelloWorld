@@ -13,6 +13,7 @@ public class HelloWorld
      HelloWorld app = new HelloWorld();
      String msg = app.getGreeting();
      System.out.println(msg);
+     System.out.println("Java-Version: " + System.getProperty("java.version"));
 		
 	}
 
